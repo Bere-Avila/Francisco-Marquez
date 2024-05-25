@@ -1,18 +1,37 @@
-<!-- src/views/index.ejs -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title><%= title %></title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Bienvenido a la Página Principal</h1>
-    <nav>
-        <ul>
-            <li><a href="/grade1">1° Grado</a></li>
-            <li><a href="/grade2">2° Grado</a></li>
-            <li><a href="/grade3">3° Grado</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Bienvenido a la Página Principal</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <p>Esta es la página principal de nuestro sitio educativo. Aquí puedes encontrar información sobre los diferentes grados escolares y los recursos disponibles para cada uno.</p>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="/grade1">1° Grado</a></li>
+                <li><a href="/grade2">2° Grado</a></li>
+                <li><a href="/grade3">3° Grado</a></li>
+            </ul>
+        </nav>
+        <section class="highlights">
+            <h2>Destacados</h2>
+            <ul>
+                <li>Recursos interactivos para el aprendizaje</li>
+                <li>Actividades y ejercicios para cada grado</li>
+                <li>Consejos y estrategias para padres y maestros</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Sitio Educativo. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:info@misitioeducativo.com">info@misitioeducativo.com</a></p>
+    </footer>
 </body>
 </html>
